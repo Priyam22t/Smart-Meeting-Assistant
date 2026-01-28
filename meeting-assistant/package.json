@@ -1,0 +1,26 @@
+{
+  "name": "meeting-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@stream-io/node-sdk": "^0.7.36",
+    "@stream-io/video-react-sdk": "^1.31.6",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "stream-chat": "^9.30.1",
+    "stream-chat-react": "^13.13.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4"
+  }
+}
